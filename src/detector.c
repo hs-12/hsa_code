@@ -1628,7 +1628,7 @@ void run_detector(int argc, char **argv)
     if (filename)
         if (strlen(filename) > 0)
             if (filename[strlen(filename) - 1] == 0x0d) filename[strlen(filename) - 1] = 0;
-    printf("%s\n", filename);
+    //printf("%s\n", filename);
     demo(thresh, hier_thresh, cam_index, filename, frame_skip, prefix, out_filename,
         mjpeg_port, json_port, dont_show, ext_output, letter_box, time_limit_sec, http_post_host);
 
